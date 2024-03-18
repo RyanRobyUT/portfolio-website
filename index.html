@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ryan Roby</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand my-brand" href="#">Ryan Roby</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " data-bs-autoclose="outside" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a id ="#about-me" class="nav-link" href="#" onclick="event.preventDefault(); scrollToElementWithOffset('about-me', 75)">About Me</a>
+            </li>
+            <li class="nav-item ">
+              <a id ="#my-exp" class="nav-link" href="#" onclick="event.preventDefault(); scrollToElementWithOffset('my-exp', 50)">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a id ="#my-projects" class="nav-link" href="#" onclick="event.preventDefault(); scrollToElementWithOffset('my-projects', 50)">Academic Projects</a>
+            </li>
+            <li class="nav-item">
+                <a id ="#my-classes" class="nav-link" href="#" onclick="event.preventDefault(); scrollToElementWithOffset('my-classes', 50)">Academic Courses</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <section id="about-me"class="home-section ">
+        <div class="container">
+            <div class="row">
+                <div class = "col-12 col-lg-4 profile">
+                    <div class="avatar">
+                        <img src="./src/Ryan_Roby_new.jpg" alt="Avatar" width="150px">
+                    </div>
+                    <div class="portrait-titles">
+                        <ul>
+                            <li>
+                                <h2>Ryan Roby</h2>
+                            </li>
+                            <li>
+                                Graduate Teaching Assistant, UT Austin
+                            </li>
+                            <li>
+                                Manager, Tata Steel
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li>
+                                <a href="mailto:ryan.roby@utexas.edu"><i class="bi bi-envelope icon"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/ryan-roby-c/"><i class="bi bi-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/RyanRobyUT?tab=overview&from=2024-03-01&to=2024-03-17"><i class="bi bi-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://drive.google.com/file/d/12PXjlEwmh5-Oihv3Nqu-lat5TVee7AYv/view?usp=drive_link"><i class="bi bi-file-person"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8 writeup">
+                    <h2>About Me</h2>
+                    <p>I am pursuing an M.S. in Operations Research and Industrial Engineering at the University of Texas at Austin. 
+                        Before that, I worked as a manager at one of India's largest steel manufacturing companies, Tata Steel. 
+                        During my professional endeavours, I had the opportunity to work on a diverse set of problems ranging from 
+                        creating the ideal warehouse layout to enabling fast hyperlocal deliveries to optimising components of satellites. 
+                        As I return to academia once again, I seek to bolster my skills in machine learning and leverage that skill to tackle 
+                        complex business problems.
+                    </p>
+                    <div class = "row">
+                        <div class = "col-md-5">
+                            <h3 class="sub-title">Interests</h3>
+                            <ul class="no-point-lists">
+                                <li>
+                                    Machine Learning
+                                </li>
+                                <li>
+                                    Artificial Intelligence
+                                </li>
+                                <li>
+                                    Optimization
+                                </li>
+                                <li>
+                                    Reinforcement Learning
+                                </li>
+                                <li>
+                                    Robotics
+                                </li>
+                                <li>
+                                    Network Analysis
+                                </li>
+                            </ul>
+                            </div>
+                        <div class = "col-md-7">
+                        <h3 class="sub-title"> Education</h3>
+                        <ul class="no-point-lists">
+                            <li>
+                                <p class="description">
+                                    M.S. in Operations Research and Industrial Engineering (ongoing)
+                                </p>
+                                <p class="institution">
+                                    University of Texas at Austin
+                                </p>
+                            </li>
+                            <li>
+                                <p class="description">
+                                    B.E. in Mechanical Engineering
+                                </p>
+                                <p class="institution">
+                                    Birla Institute of Technology and Science, Pilani
+                                </p>
+                            </li>
+                            <li>
+                                <p class="description">
+                                    ISC (XII)
+                                </p>
+                                <p class="institution">
+                                    Sri Atmananda Memorial School, Malakkara
+                                </p>
+                            </li>
+                        </ul>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section id="my-exp" class="experience even">
+        <div class="container">
+            <div class = "row">
+                <div class = "col-12 col-lg-3">
+                    <h2>Experience</h2>
+                </div>
+                <div class = "col-12 col-lg-9">
+                    <div class ="row experience">
+                        <div class ="col py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row element">
+                                            <div class="col-md-2 disappear-on">
+                                                <div class="card-image">
+                                                    <img src="./src/UT_Austin_Logo.png" alt="Avatar" width="100px" height="100px">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-10">
+                                                <div class="card-text">
+                                                    <h4 class="card-title exp-title mt-0 mb-1">
+                                                        Graduate Teaching Assistant
+                                                    </h4>
+                                                    <h4 class="card-title exp-company muted-text my-0">
+                                                        OM337.6, University of Texas at Austin
+                                                    </h4>
+                                                    <div class="muted-text exp-meta">
+                                                        Sept 2023 - Dec 2023<span class="middot-divider"></span><span>Austin</span>
+                                                    </div>
+                                                    <div class="card-text">
+                                                        I served as the Graduate Teaching Assistant for the Course "Supply Chain Analytics" offered by McComb's School of Business at Austin. 
+                                                        My responsibilities included mentoring 16 undergraduate students, guiding them to program in R Studio and grading their assignments.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class ="row experience">
+                        <div class ="col py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row element">
+                                            <div class="col-md-2 disappear-on">
+                                                <div class="card-image white-rounded-background">
+                                                    <img src="./src/Tata_Steel_Logo.png" alt="Avatar" width="100px" height="100px">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-10">
+                                                <div class="card-text">
+                                                    <h4 class="card-title exp-title mt-0 mb-1">
+                                                        Manager
+                                                    </h4>
+                                                    <h4 class="card-title exp-company muted-text my-0">
+                                                        Utilities and Power Systems, Tata Steel Ltd
+                                                    </h4>
+                                                    <div class="muted-text exp-meta">
+                                                        July 2021 - July 2023<span class="middot-divider"></span><span>Kalinganagar & Jamshedpur</span>
+                                                    </div>
+                                                    <div class="card-text">
+                                                        Tata Steel is one of India's Largest Steel Manufacturing Companies. My primary responsibility was the planning 
+                                                        and scheduling maintenance activities on Industrial Pipelines and HVAC systems of the Integrated Steel Plant in Kalinganagar. 
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class ="row experience">
+                        <div class ="col py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row element">
+                                            <div class="col-md-2 disappear-on">            
+                                                <div class="card-image">
+                                                    <img src="./src/Dunzo_Logo.png" alt="Avatar" width="100px" height="100px">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-10">
+                                                <div class="card-text">
+                                                    <h4 class="card-title exp-title mt-0 mb-1">Business Development Intern</h4>
+                                                    <h4 class="card-title exp-company muted-text my-0">EWH, Dunzo Digital</h4>
+                                                    <div class="muted-text exp-meta">July 2020 - Dec 2020<span class="middot-divider"></span><span>Bangalore</span></div>
+                                                    <div class="card-text">
+                                                        Dunzo Digital is an e-commerce platform that focuses on hyperlocal delivery. I worked with the essential warehouse division, 
+                                                        which operated eight dark stores in 2 major cities in India.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class ="row experience">
+                        <div class ="col py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row element">
+                                            <div class="col-md-2 disappear-on">
+                                                <div class="card-image">
+                                                    <img src="./src/Pixxel_Logo_2.jpeg" alt="Avatar" width="100px" height="100px">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-10">
+                                                <div class="card-text">
+                                                    <h4 class="card-title exp-title mt-0 mb-1">Mechanical Design Intern</h4>
+                                                    <h4 class="card-title exp-company muted-text my-0">Pixxel Aerospace Ltd</h4>
+                                                    <div class="muted-text exp-meta">May 2019 - July 2019<span class="middot-divider"></span><span>Bangalore</span></div>
+                                                    <div class="card-text">
+                                                        Pixxel is the leading startup in the hyperspectral imagery sector in India. I worked with the mechanical 
+                                                        engineering team to design and optimize the hinges and the mechanical adapters for the solar panel deployment 
+                                                        mechanism of a proof of concept 3U cubical satellite using generative design tools. 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id = "my-projects" class="projects odd">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <h2>Academic Projects</h2>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <div class="media-item">
+                        <div class="media-body">
+                            <h3 class="media-title sub-title">
+                                Anamolous Sound Detection using Supervised and Unsupervised Machine Learning Techniques
+                            </h3>
+                            <div class="media-text">
+                                We developed two deep learning architectures to detect malfunctions in industrial machines using
+                                 the MIMII dataset. We created a supervised CNN Model that was trained using cross-entropy 
+                                 loss and evaluated its performance using ROC AUC and an unsupervised model with a pre-trained ResNet18 model 
+                                 and a fine tuned GMM for anomaly detection. 
+                            </div>
+                            <div class="media-meta muted-text">
+                                Ryan Roby, Min-Gyu Kim, Adhika Retnanto, Sophia Shi
+                                <div>
+                                    Dec 2023
+                                </div>
+                            </div>
+                            <div class = "btn-links">
+                                <a class="btn btn-outline-primary my-btn" href="https://drive.google.com/file/d/1SZTrLfT7kREJlkbdY4mV98Ir2SMd9eBU/view?usp=drive_link">PDF</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media-item">
+                            <div class="media-body">
+                                <h3 class="media-title sub-title">
+                                    MEMS based Peizoelectric Vibrational Energy Harvestor
+                                </h3>
+                                <div class="media-text">
+                                    We designed a piezo electric energy harvester that harnesses the vibrations resulting from the impact of 
+                                    rainwater on a flexible cantilever to generate power. We simulated experiments using COMSOL to determine the 
+                                    effects of droplet size and impact velocity on peak voltage generated by the energy harvester. We also
+                                    verified the results in the lab using a proof of concept model.
+                                </div>
+                                <div class="media-meta muted-text">
+                                    Ryan Roby, Krishnadev R Menon
+                                    <div>
+                                        Dec 2019
+                                    </div>
+                                </div>
+                                <div class = "btn-links">
+                                    <a class="btn btn-outline-primary my-btn" href="https://drive.google.com/file/d/1HpAskqATe6ysT77F19yrdzTJ6EODvvVR/view?usp=drive_link">PDF</a>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="my-classes" class="courses even">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <h2>Academic Courses</h2>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <h3 class="sub-title">Optimization and Data Science:</h3>
+                    <h4 class="sub-title my-0">University of Texas at Austin</h4>
+                    <ul>
+                        <li>ORI 390R: Applied Probability</li>
+                        <li>ORI 391Q: Linear Programming</li>
+                        <li>ECE 381K: Applied Machine Learning</li>
+                        <li>ORI 391Q: Integer Programming</li>
+                        <li>ORI 390D: Decision Analysis</li>
+                        <li>ORI 390R: Applied Stochastic Processes</li>
+                    </ul>
+                    <h4 class="sub-title my-0">Birla Institute of Technology and Science, Pilani</h4>
+                    <ul>
+                        <li>HSS F222: Symbolic Logic</li>
+                        <li>BITS F311: Image Processing</li>
+                        <li>G511: Mechanisms and Robotics</li>
+                        <li>CS F111: Computer Programming</li>
+                        <li>ME F344: Engineering Optimization</li>
+
+                    </ul>
+                    <h3 class="sub-title">Supply Chain Management and Manufacturing:</h3>
+                    <ul>
+                        <li>ME F421: Supply Chain Management</li>
+                        <li>MF F418: Lean Manufacturing</li>
+                        <li>MF F485: Sustainable Manufacturing</li>
+                        <li>BITS F482: Leadership in an Entrepreneural Organisation</li>
+                    </ul>
+                    <h3 class="sub-title">Mathematical Foundation:</h3>
+                    <ul>
+                        <li>MATH F111: Sequences, Series and Advanced Calculus</li>
+                        <li>MATH F112: Linear Algebra</li>
+                        <li>MATH F211: Differential Equations</li>
+                        <li>MATH F113: Probability and Statistics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-glznC164SX+BqCjaYzT8Obdr4xLrgrFskaIsUQvBJzbIYHJ2H2wlLqoGLWGEzLxRs" crossorigin="anonymous"></script>
+    <script src="./src/index.js" charset="UTF-8"></script>
+</body>
+</html>
